@@ -1,3 +1,9 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
 
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
@@ -22,7 +28,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "Readex Pro", sans-serif;
   line-height: 1.2;
 }
 
@@ -63,7 +69,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: "Readex Pro", sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -94,13 +100,13 @@ h6, .h6 {
   color: #fff;
 }
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #b2e0e6 !important;
 }
 .btn-primary:hover {
-  background: #542cb7;
+  background: #b2e0e6;
 }
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #b2e0e6 !important;
   box-shadow: none !important;
 }
 
@@ -119,12 +125,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: #b2e0e6;
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: #b2e0e6;
   color: #fff;
 }
 
@@ -189,7 +195,7 @@ a:hover {
 }
 .section-title {
   margin-bottom: 80px;
-  font-family: "Playfair Display", serif;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .bg-cover {
@@ -298,11 +304,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Readex Pro", sans-serif !important;
 }
 
 .font-tertiary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Readex Pro", sans-serif !important;
 }
 
 .shadow {
@@ -406,7 +412,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Playfair Display", serif;
+  font-family: "Readex Pro", sans-serif;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -707,7 +713,7 @@ blockquote {
   margin-bottom: 20px;
 }
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
@@ -812,6 +818,11 @@ blockquote {
   position: absolute;
   right: -220px;
   bottom: -100px;
+}
+@media (max-width: 1200px) {
+  .page-title .bg-shape-7 {
+    right: 0;
+  }
 }
 
 .filter-controls li {
